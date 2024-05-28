@@ -8,7 +8,7 @@ const MemeCoin = () => {
   return (
     <div className="w-[60%] m-auto">
       <div
-        className={`${classes?.bgcolor} p-6 rounded-lg flex items-center m-auto z-20 relative`}
+        className={`${classes?.bgcolor} p-6 rounded-lg flex items-center m-auto z-20 relative  inset-0`}
       >
         <div className="absolute sm:-left-12 -left-20">
             <img src= {url} className="w-40"/>

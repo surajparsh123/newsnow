@@ -28,7 +28,7 @@ export const Navbar = memo(function Style46(props) {
   
 
   return (
-    <div className={`${resets.clapyResets} ${classes.root}`}>
+    <div className={`${resets.clapyResets} ${classes.rootNav}`}>
       <div className={classes.center}>
         <div className={classes.sNBLLogo_21}></div>
       </div>

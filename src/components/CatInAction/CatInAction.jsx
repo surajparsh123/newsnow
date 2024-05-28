@@ -16,7 +16,7 @@ const CatInAction = () => {
     </div> */}
 
     <div className="image-container">
-      <img src="src/assets/center.png" alt="Cat playing saxophone"/>
+      <img src="./src/assets/center.png" alt="Cat playing saxophone"/>
     </div>
     {/* <div className="image-container">
       <img src="src/assets/grd2.png" alt="Cat with sunglasses"/>

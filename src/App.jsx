@@ -14,40 +14,43 @@ import CatInAction from "./components/CatInAction/CatInAction";
 function App() {
   return (
     <>
-    <div className="sm:w-full w-fit">
-      <div className="m-auto pt-4 sticky -top-4 z-40 sm:w-[60%] w-full">
-        <Navbar />
-      </div>
+      <div className="sm:w-full w-fit">
+        <div className=" pt-4 sticky -top-4 z-40 sm:w-[60%] sm:m-auto ml-3.5">
+          <Navbar />
+        </div>
 
-      <div className="pt-4 sm:w-[50%] w-full m-auto">
-        <WelcomeCard />
-      </div>
-      <div className="m-auto mt-60 w-full">
-        <MemeCoin />
-      </div>
+        <div className="pt-4 sm:w-[50%] w-full m-auto">
+          <WelcomeCard />
+        </div>
+        <div className="m-auto mt-60 w-full">
+          <MemeCoin />
+        </div>
 
-      <div id="CatAction" className="m-auto pt-36 mt-60 w-full">
-        <CatInAction />
-      </div>
+        <div id="CatAction" className="m-auto pt-36 mt-60 w-full">
+          <CatInAction />
+        </div>
 
-      <div id="roadmap" className="mt-4 pt-36 m-auto w-[60%]">
-        <Roadmap />
-      </div>
+        <div id="roadmap" className="mt-4 pt-36 m-auto w-[60%]">
+          <Roadmap />
+        </div>
 
-      <div id="HowToBuy" className="sm:w-[60%] w-full m-auto pt-36">
-        <HowToBuy />
-      </div>
+        <div id="HowToBuy" className="sm:w-[60%] w-full m-auto pt-36">
+          <HowToBuy />
+        </div>
 
-      <div id="Tokenomics" className="w-full mt-4 m-auto pt-48">
-        <Tokenomics31 />
-      </div>
+        <div id="Tokenomics" className="w-full mt-4 m-auto pt-48">
+          <h2 className="text-4xl font-bold mb-4 text-white text-center">
+            Tokenomic
+          </h2>
+          <Tokenomics31 />
+        </div>
 
-      <div className="mt-12">
-        <Footer />
-      </div>
+        <div className="mt-80">
+          <Footer />
+        </div>
 
-      {/**/}
-      {/*
+        {/**/}
+        {/*
      
     
 
@@ -60,11 +63,7 @@ function App() {
       </div>
 
        */}
-    </div>
-
-  
-
-
+      </div>
     </>
   );
 }

@@ -10,9 +10,16 @@ const Footer = memo(function Footer(props = {}) {
       <div className={classes.rectangle5746}>
 
       </div>
+      <div className='absolute w-full -mt-72 mb-2 sm:block hidden'>
+      <img src= "src\assets\footerLeft.png" />
+
+      </div>
+
+
 
       <div className=''>
-      <div className={classes.file161}></div>
+      {/* <div className={classes.file161}>
+      </div> */}
       <div className={classes.ex1}>
 
       </div>
