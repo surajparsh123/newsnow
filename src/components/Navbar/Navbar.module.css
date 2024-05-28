@@ -1,0 +1,139 @@
+.root {
+  position: relative;
+  width: 880px;
+  height: 165px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 214px;
+  padding: 0 36px;
+  border-radius: 10px;
+  background-image: linear-gradient(180deg, #778640ff 0%, #414f0eff 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  overflow: hidden;
+  box-shadow: 0px 0px 20px 0px #00000040;
+  backdrop-filter: blur(10px);
+}
+.center {
+  position: absolute;
+  left: 222.5px;
+  top: 13px;
+  width: 405px;
+  height: 114px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0 0;
+}
+.sNBLLogo_21 {
+  position: absolute;
+  left: calc(50% - 0.4796px);
+  top: 0;
+  width: 161.0408px;
+  height: 78px;
+  background-image:/* webpackIgnore: true */ url("../../assets/sNBLLogo_21.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translateX(-50%);
+}
+.ex1 {
+  position: absolute;
+  left: 32px;
+  top: 23.0002px;
+  width: 34.5767px;
+  height: 23.9507px;
+  background-image:/* webpackIgnore: true */ url("../../assets/ex1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.telegram11 {
+  position: absolute;
+  left: 815.5767px;
+  top: 23px;
+  width: 30.9394px;
+  height: 23.846px;
+  background-image:/* webpackIgnore: true */ url("../../assets/telegram11.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header {
+  position: absolute;
+  left: calc(50% - 15.5px);
+  top: calc(50% - -44.5px);
+  width: min-content;
+  height: min-content;
+  align-items: flex-start;
+  gap: 50px;
+  transform: translate(-50%, -50%);
+}
+.catInAction {
+  color: #fff;
+  font-size: 16px;
+  font-family: Palatino Linotype, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+  cursor: pointer;
+}
+.tokenomics {
+  color: #fff;
+  font-size: 16px;
+  font-family: Palatino Linotype, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+  cursor: pointer;
+}
+.gallery {
+  color: #fff;
+  font-size: 16px;
+  font-family: Palatino Linotype, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+  cursor: pointer;
+}
+.buySNBL {
+  color: #fff;
+  font-size: 16px;
+  font-family: Palatino Linotype, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+  cursor: pointer;
+}
+.roadmap {
+  color: #fff;
+  font-size: 16px;
+  font-family: Palatino Linotype, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+  cursor: pointer;
+}
+.howToBuy {
+  color: #fff;
+  font-size: 16px;
+  font-family: Palatino Linotype, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+  cursor: pointer;
+}

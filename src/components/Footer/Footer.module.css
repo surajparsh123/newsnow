@@ -1,0 +1,135 @@
+.rectangle5746 {
+  position: absolute;
+  /* left: 0; */
+  /* top: 0px; */
+  width: 100%;
+  height: 500px;
+  background-image: url("../../assets/footer.png");
+
+  /* background: linear-gradient(180deg, #778640ff 0%, #414f0eff 100%); */
+  background-size: cover;
+  background-position: center;
+  /* margin-bottom: -50px; */
+}
+
+.file161 {
+  position: absolute;
+  /* top: 6733px;
+  bottom:0; */
+  width: 500px;
+  height: 500.874px;
+  background-image: url("../../assets/footerLeft.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ex1,
+.telegram11 {
+  position: absolute;
+  /* top: 7100px; */
+  width: 72.1816px;
+  height: 49.999px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ex1 {
+  left: 83%;
+  margin-top: 16%;
+  /* left: 1198px; */
+  background-image: url("../../assets/ex1.png");
+}
+
+.telegram11 {
+  /* left: 1300.4843px; */
+  left: 90%;
+  margin-top: 16%;
+  width: 64.5886px;
+  height: 49.7804px;
+  background-image: url("../../assets/telegram11.png");
+}
+
+.sNOWBELL {
+  color: #fff;
+  font-size: 60px;
+  font-family: Prosto One, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  position: absolute;
+  left: 85%;
+  margin-top: 6%;
+  /* top: 6900px; */
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  text-align: center;
+  transform: translateX(-50%);
+}
+
+.whenLifeGetsHotBeASnowbell {
+  color: #fff;
+  font-size: 20px;
+  font-family: Prosto One, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  letter-spacing: 0.5em;
+  position: absolute;
+  left: 74%;
+  margin-top: 12%;
+  /* top: 7000px; */
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  white-space: nowrap;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 768px) {
+  .rectangle5746 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+
+  .sNOWBELL {
+    position: static;
+    margin: 20px auto 10px;
+    font-size: 40px;
+    padding: 10px;
+  }
+
+  .whenLifeGetsHotBeASnowbell {
+    margin: auto;
+    font-size: 16px;
+    margin-left: 136px;
+
+    padding: 10px;
+  }
+
+  .ex1 {
+    /* position: static; */
+    /* margin: 65px 10px; */
+    width: 40px;
+    height: 30px;
+    margin-left: 160px;
+    margin-right: 100px;
+    margin-top: 24px;
+    padding: 10px;
+  }
+  .telegram11 {
+    width: 40px;
+    height: 30px;
+    margin-top: 24px;
+
+    margin-left: 200px;
+    padding: 10px;
+
+    /* margin-top: 85px; */
+  }
+
+  .file161 {
+    display: none; /* Hide the background image for smaller screens */
+  }
+}
