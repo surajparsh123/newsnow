@@ -1,13 +1,10 @@
 import React, { useEffect, useState } from "react";
-import { useMediaQuery } from 'react-responsive';
-
+import { useMediaQuery } from "react-responsive";
 
 const WelcomeCard = () => {
   const [scale, setScale] = useState(1);
 
-
-  const isSmallScreen = useMediaQuery({ query: '(max-width: 768px)' });
-
+  const isSmallScreen = useMediaQuery({ query: "(max-width: 768px)" });
 
   useEffect(() => {
     const handleScroll = () => {
@@ -35,8 +32,6 @@ const WelcomeCard = () => {
     };
   }, []);
 
-
-
   return (
     <div className="w-full">
       <h1 className="text-white text-8xl w-full text-center">
@@ -48,8 +43,10 @@ const WelcomeCard = () => {
         industry. Lorem Ipsum has been the industry's standard dummy text ever
         since the 1500s,
       </p>
-      <div style={{ transform: isSmallScreen ? "scale(1)" : `scale(${scale})` }}>
-        <img src="../../assets/Group 7.png" className="w-80 m-auto" />
+      <div
+        style={{ transform: isSmallScreen ? "scale(1)" : `scale(${scale})` }}
+      >
+        <img src="https://iili.io/JQ03sLu.png" className="w-80 m-auto" />
       </div>
     </div>
   );
