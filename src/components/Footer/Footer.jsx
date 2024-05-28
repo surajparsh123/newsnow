@@ -4,6 +4,9 @@ import React from 'react';
 import resets from '../_resets.module.css';
 import classes from './Footer.module.css';
 
+
+
+
 const Footer = memo(function Footer(props = {}) {
   return (
     <div className={classes.main}>
@@ -11,7 +14,7 @@ const Footer = memo(function Footer(props = {}) {
 
       </div>
       <div className='absolute w-full -mt-72 mb-2 sm:block hidden'>
-      <img src= "../../assets\footerLeft.png" />
+      <img src= "./src/components/Footer/footerLeft.png" />
 
       </div>
 
