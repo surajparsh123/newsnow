@@ -11,7 +11,7 @@ const Footer = memo(function Footer(props = {}) {
 
       </div>
       <div className='absolute w-full -mt-72 mb-2 sm:block hidden'>
-      <img src= "src\assets\footerLeft.png" />
+      <img src= "../../assets\footerLeft.png" />
 
       </div>
 

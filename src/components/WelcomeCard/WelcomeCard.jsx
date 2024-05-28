@@ -49,7 +49,7 @@ const WelcomeCard = () => {
         since the 1500s,
       </p>
       <div style={{ transform: isSmallScreen ? "scale(1)" : `scale(${scale})` }}>
-        <img src="./src/assets/Group 7.png" className="w-80 m-auto" />
+        <img src="../../assets/Group 7.png" className="w-80 m-auto" />
       </div>
     </div>
   );
