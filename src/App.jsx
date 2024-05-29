@@ -26,19 +26,19 @@ function App() {
           <MemeCoin />
         </div>
 
-        <div id="CatAction" className="m-auto pt-36 mt-60 w-full">
+        <div id="CatAction" className="m-auto mt-4 w-full">
           <CatInAction />
         </div>
 
-        <div id="roadmap" className="mt-4 pt-36 m-auto w-[60%]">
+        <div id="roadmap" className="m-auto w-[60%]">
           <Roadmap />
         </div>
 
-        <div id="HowToBuy" className="sm:w-[60%] w-full m-auto pt-36">
+        <div id="HowToBuy" className="sm:w-[60%] w-full m-auto">
           <HowToBuy />
         </div>
 
-        <div id="Tokenomics" className="w-full mt-4 m-auto pt-48">
+        <div id="Tokenomics" className="w-full m-auto">
           <h2 className="text-4xl font-bold mb-4 text-white text-center">
             Tokenomic
           </h2>
