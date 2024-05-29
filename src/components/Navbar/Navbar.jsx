@@ -6,35 +6,40 @@ import { NavLink } from "react-router-dom";
 export const Navbar = memo(function Style46(props) {
   const handleScrollToRoadmap = () => {
     const element = document.getElementById("roadmap");
-
-    document.getElementById("roadmap").scrollIntoView({ behavior: "smooth" });
-    element.style.paddingTop = "200px";
+    const yOffset = -200;
+    const y = element.getBoundingClientRect().top + window.scrollY + yOffset;
+    window.scrollTo({ top: y, behavior: "smooth" });
   };
   const handleScrollToGallery = () => {
     const element = document.getElementById("gallery");
-    document.getElementById("gallery").scrollIntoView({ behavior: "smooth" });
-    element.style.paddingTop = "200px";
+    const yOffset = -200;
+    const y = element.getBoundingClientRect().top + window.scrollY + yOffset;
+
+    window.scrollTo({ top: y, behavior: "smooth" });
   };
 
   const handleScrollHowToBuy = () => {
     const element = document.getElementById("HowToBuy");
-    document.getElementById("HowToBuy").scrollIntoView({ behavior: "smooth" });
-    element.style.paddingTop = "200px";
+    const yOffset = -200;
+    const y = element.getBoundingClientRect().top + window.scrollY + yOffset;
+
+    window.scrollTo({ top: y, behavior: "smooth" });
   };
 
   const handleScrollToTokenomics = () => {
     const element = document.getElementById("Tokenomics");
-    document
-      .getElementById("Tokenomics")
-      .scrollIntoView({ behavior: "smooth" });
+    const yOffset = -0;
+    const y = element.getBoundingClientRect().top + window.scrollY + yOffset;
 
-    element.style.paddingTop = "200px";
+    window.scrollTo({ top: y, behavior: "smooth" });
   };
 
   const handleScrollToCat = () => {
     const element = document.getElementById("CatAction");
-    document.getElementById("CatAction").scrollIntoView({ behavior: "smooth" });
-    element.style.paddingTop = "200px";
+    const yOffset = -200;
+    const y = element.getBoundingClientRect().top + window.scrollY + yOffset;
+
+    window.scrollTo({ top: y, behavior: "smooth" });
   };
 
   return (
